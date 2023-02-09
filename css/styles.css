@@ -1,0 +1,69 @@
+/* ******************************GENERAL********************** */
+html {
+    height: 100%;
+    scroll-padding-top: calc(4.5rem - 1px);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* ******************************HOME********************** */
+
+@font-face {
+    font-family: Press_Gothic;
+    src: url(../img/press-gothic.otf);
+}
+
+#column1 {
+    background-image: url(../img/p1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#column2 {
+    background-image: url(../img/hbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#column3 {
+    background-image: url(../img/p2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#column1>p {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: Press_Gothic;
+}
+
+#column2>p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    font-family: Press_Gothic;
+}
+
+#column3>p {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    font-family: Press_Gothic;
+}
